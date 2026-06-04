@@ -1,6 +1,6 @@
 # Gap-Conditional Calibration Analysis of S2P2
 
-Extending the calibration evaluation of [Chang et al., NeurIPS 2025].
+Extending the calibration evaluation of Deep Continuous-Time State-Space Models Marked Event Sequences.
 
 S2P2 reports a single aggregate Probabilistic Calibration Error (PCE) per dataset. 
 This analysis introduces **Gap-Conditional PCE (GC-PCE)** — PCE computed separately 
@@ -14,8 +14,8 @@ the standard metric.
 ## Setup
 
 ```bash
-git clone https://github.com/akashhebbar/s2p2-calibration-analysis
-cd s2p2-calibration-analysis
+git clone https://github.com/akashhebbar/gap-conditional-pce
+cd gap-conditional-pce
 pip install -r requirements.txt
 
 # Clone EasyTPP (required dependency — not included here)
