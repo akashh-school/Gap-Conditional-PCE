@@ -1,6 +1,6 @@
 # Gap-Conditional Calibration Analysis of S2P2
 
-Extending the calibration evaluation of [Chang et al., NeurIPS 2025](https://arxiv.org/abs/[arxiv-id]).
+Extending the calibration evaluation of [Chang et al., NeurIPS 2025].
 
 S2P2 reports a single aggregate Probabilistic Calibration Error (PCE) per dataset. 
 This analysis introduces **Gap-Conditional PCE (GC-PCE)** — PCE computed separately 
@@ -11,7 +11,7 @@ within each inter-arrival gap quartile — and applies it to S2P2 on the Taxi be
 The aggregate metric reports one number. GC-PCE reveals a U-shaped calibration profile: 
 worst at rapid-succession events (Q1: PCE = 0.393) and long gaps (Q4: PCE = 0.349), 
 with best calibration at medium gaps (Q2: PCE = 0.100) — a 3.9× spread invisible to 
-the standard metric. Full methodology and results in [`note/gc_pce_note.pdf`](note/gc_pce_note.pdf).
+the standard metric. 
 
 ## Setup
 
