@@ -6,8 +6,6 @@ S2P2 reports a single aggregate Probabilistic Calibration Error (PCE) per datase
 This analysis introduces **Gap-Conditional PCE (GC-PCE)** — PCE computed separately 
 within each inter-arrival gap quartile — and applies it to S2P2 on the Taxi benchmark.
 
-![GC-PCE results](results/gc_pce_s2p2_taxi.png)
-
 The aggregate metric reports one number. GC-PCE reveals a U-shaped calibration profile: 
 worst at rapid-succession events (Q1: PCE = 0.393) and long gaps (Q4: PCE = 0.349), 
 with best calibration at medium gaps (Q2: PCE = 0.100) — a 3.9× spread invisible to 
