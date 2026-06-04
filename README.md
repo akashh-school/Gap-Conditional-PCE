@@ -14,7 +14,7 @@ the standard metric.
 ## Setup
 
 ```bash
-git clone https://github.com/akashhebbar/gap-conditional-pce
+git clone https://github.com/akashh-school/gap-conditional-pce
 cd gap-conditional-pce
 pip install -r requirements.txt
 
